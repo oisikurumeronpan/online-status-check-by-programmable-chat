@@ -42,7 +42,7 @@ class OnlineStatusCheckService {
     });
 
     final response = await http.post(
-      'https://glaucous-goldfinch-8104.twil.io/chat-token',
+      const String.fromEnvironment('API_ENDPOINT'),
       body: body,
       headers: {'Content-Type': 'application/json'},
     );

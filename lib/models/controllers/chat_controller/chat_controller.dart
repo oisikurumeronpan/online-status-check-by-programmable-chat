@@ -75,13 +75,8 @@ class ChatController extends StateNotifier<ChatState> {
 
   Future<bool> isUserOnline(String id) async {
     final user = await state.client.users.getUserDescriptor(id);
-    final u = await user.subscribe();
 
-    print(user);
-
-    print(state.client.connectionState);
-
-    return false;
+    return user?.isOnline;
   }
 
   @override
