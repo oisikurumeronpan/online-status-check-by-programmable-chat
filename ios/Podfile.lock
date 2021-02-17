@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - twilio_programmable_chat (0.0.1):
+    - Flutter
+    - TwilioChatClient (~> 3.1)
+  - TwilioChatClient (3.1.1)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - twilio_programmable_chat (from `.symlinks/plugins/twilio_programmable_chat/ios`)
+
+SPEC REPOS:
+  trunk:
+    - TwilioChatClient
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  twilio_programmable_chat:
+    :path: ".symlinks/plugins/twilio_programmable_chat/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  twilio_programmable_chat: 0eceef7281d848868738cfb1b68f12426fac6730
+  TwilioChatClient: 6862ca61d06978e9595cb5737b32206718721f47
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.9.3
